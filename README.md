@@ -11,7 +11,7 @@
 - Pham Tuan Son
 - Tran Trung Hieu
 - Vu Hai Dang
-- Pham Van Khoaa
+- Pham Van Khoa
 
 ## How to contribute?
 
