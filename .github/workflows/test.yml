@@ -1,0 +1,16 @@
+name: GitHub Actions test
+on: 
+  push:
+    branches:
+      - main
+jobs:
+  github_actions_test:
+    runs-on: self-hosted
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - run: pwd
+      # - name: List files in the repository
+      #   run: |
+      #     ls ${{ github.workspace }}
+      # - run: echo "🍏 This job's status is ${{ job.status }}."
