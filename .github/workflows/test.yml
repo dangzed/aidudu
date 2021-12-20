@@ -7,8 +7,8 @@ jobs:
   github_actions_test:
     runs-on: self-hosted
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+      
       - run: ls -a
       - run: docker-compose build
       - run: docker-compose up
