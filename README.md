@@ -10,7 +10,7 @@
 - Dang Quang Minh
 - Pham Tuan Son
 - Tran Trung Hieu
-- Vu Hai Dang
+- Vu Hai Dang dasdasdsadsa
 - Pham Van Khoa
 
 ## How to contribute?
