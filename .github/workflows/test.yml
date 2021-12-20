@@ -2,7 +2,7 @@ name: GitHub Actions test
 on: 
   push:
     branches:
-      - main
+      - frontend
 jobs:
   github_actions_test:
     runs-on: self-hosted
