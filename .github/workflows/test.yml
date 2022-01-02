@@ -9,9 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - run: ls -a
-      - run: sudo docker-compose build
-      - run: sudo docker-compose up
+      - run: sudo docker-compose -f .\docker-compose.prod.yml down
+      - run: sudo docker-compose -f .\docker-compose.prod.yml build
+      - run: sudo docker-compose -f .\docker-compose.prod.yml up
       # - name: List files in the repository
       #   run: |
       #     ls ${{ github.workspace }}
