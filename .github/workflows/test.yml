@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: whoami
+      - run: ls
       - run: docker-compose -f docker-compose.prod.yml down
       - run: docker-compose -f docker-compose.prod.yml build
       - run: docker-compose -f docker-compose.prod.yml up
