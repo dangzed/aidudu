@@ -11,3 +11,4 @@ jobs:
       - run: sudo docker-compose -f docker-compose.prod.yml down
       - run: sudo docker-compose -f docker-compose.prod.yml build
       - run: sudo docker-compose -f docker-compose.prod.yml up
+      - run: pwd
