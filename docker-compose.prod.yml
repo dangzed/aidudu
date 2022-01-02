@@ -19,6 +19,8 @@ services:
             - redis
             - worker
             - scheduler
+        restart: always
+
     database:
         image: postgres
         environment:
@@ -68,8 +70,7 @@ services:
           - /app/node_modules
         depends_on:
           - backend
+        restart: always
 volumes:
     postgres_data:
     redis_data:
-
-restart: always
